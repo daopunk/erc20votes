@@ -1,0 +1,86 @@
+{
+  "transactions": [
+    {
+      "hash": "0x011a2a204772cc6f9e267f67479937d111645bd3b3dc0427cecd1d6591f39829",
+      "transactionType": "CALL",
+      "contractName": "FuturoToken",
+      "contractAddress": "0xB6Bd6e0e1A104782EB6477120C7Aaf424e0656E1",
+      "function": "mint(address,uint256)",
+      "arguments": [
+        "0xD5d1bb95259Fe2c5a84da04D1Aa682C71A1B8C0E",
+        "10000000000000000000000"
+      ],
+      "rpc": "https://eth-sepolia.g.alchemy.com/v2/K91nM4ITLFYB6rKdl78qx0BTsypJOC4D",
+      "transaction": {
+        "type": "0x02",
+        "from": "0xd5d1bb95259fe2c5a84da04d1aa682c71a1b8c0e",
+        "to": "0xb6bd6e0e1a104782eb6477120c7aaf424e0656e1",
+        "gas": "0x1704d",
+        "value": "0x0",
+        "data": "0x40c10f19000000000000000000000000d5d1bb95259fe2c5a84da04d1aa682c71a1b8c0e00000000000000000000000000000000000000000000021e19e0c9bab2400000",
+        "nonce": "0x6",
+        "accessList": []
+      },
+      "additionalContracts": []
+    },
+    {
+      "hash": "0x62d0f270e3c641e64ecfd978a3801f0d68129edcd43b3f4c9ed54ffa44bcf336",
+      "transactionType": "CALL",
+      "contractName": "FuturoToken",
+      "contractAddress": "0xB6Bd6e0e1A104782EB6477120C7Aaf424e0656E1",
+      "function": "mint(address,uint256)",
+      "arguments": [
+        "0x37c5B029f9c3691B3d47cb024f84E5E257aEb0BB",
+        "10000000000000000000000"
+      ],
+      "rpc": "https://eth-sepolia.g.alchemy.com/v2/K91nM4ITLFYB6rKdl78qx0BTsypJOC4D",
+      "transaction": {
+        "type": "0x02",
+        "from": "0xd5d1bb95259fe2c5a84da04d1aa682c71a1b8c0e",
+        "to": "0xb6bd6e0e1a104782eb6477120c7aaf424e0656e1",
+        "gas": "0x12446",
+        "value": "0x0",
+        "data": "0x40c10f1900000000000000000000000037c5b029f9c3691b3d47cb024f84e5e257aeb0bb00000000000000000000000000000000000000000000021e19e0c9bab2400000",
+        "nonce": "0x7",
+        "accessList": []
+      },
+      "additionalContracts": []
+    },
+    {
+      "hash": "0x92efb9fe52d6fa7dd5949d8707d7c0becf8a6e46725db40121b393a67a238bef",
+      "transactionType": "CALL",
+      "contractName": "FuturoToken",
+      "contractAddress": "0xB6Bd6e0e1A104782EB6477120C7Aaf424e0656E1",
+      "function": "mint(address,uint256)",
+      "arguments": [
+        "0xE9DA154834D8c9A8030B175EB3bFd974130AC0a0",
+        "10000000000000000000000"
+      ],
+      "rpc": "https://eth-sepolia.g.alchemy.com/v2/K91nM4ITLFYB6rKdl78qx0BTsypJOC4D",
+      "transaction": {
+        "type": "0x02",
+        "from": "0xd5d1bb95259fe2c5a84da04d1aa682c71a1b8c0e",
+        "to": "0xb6bd6e0e1a104782eb6477120c7aaf424e0656e1",
+        "gas": "0x12446",
+        "value": "0x0",
+        "data": "0x40c10f19000000000000000000000000e9da154834d8c9a8030b175eb3bfd974130ac0a000000000000000000000000000000000000000000000021e19e0c9bab2400000",
+        "nonce": "0x8",
+        "accessList": []
+      },
+      "additionalContracts": []
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0x011a2a204772cc6f9e267f67479937d111645bd3b3dc0427cecd1d6591f39829",
+    "0x62d0f270e3c641e64ecfd978a3801f0d68129edcd43b3f4c9ed54ffa44bcf336",
+    "0x92efb9fe52d6fa7dd5949d8707d7c0becf8a6e46725db40121b393a67a238bef"
+  ],
+  "path": "/Users/hunterking/Desktop/testToken/broadcast/Mint.s.sol/11155111/run-latest.json",
+  "returns": {},
+  "timestamp": 1680293297,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "359b4d9"
+}
