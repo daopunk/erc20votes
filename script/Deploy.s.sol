@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import "forge-std/Script.sol";
-import {FuturoToken} from "src/FuturoToken.sol";
+import {GovernanceToken} from "src/GovernanceToken.sol";
 
 // forge script script/Deploy.s.sol:DeployScript --rpc-url $RUS --private-key $PK --broadcast --verify --etherscan-api-key $EK -vvvv
 
@@ -12,7 +12,7 @@ contract DeployScript is Script {
     function run() public {
         vm.startBroadcast();
 
-        new FuturoToken();
+        new GovernanceToken();
 
         vm.stopBroadcast();
     }
