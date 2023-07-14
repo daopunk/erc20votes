@@ -6,8 +6,8 @@ import {GovernanceToken} from "src/GovernanceToken.sol";
 
 // forge script script/Mint.s.sol:MintScript --rpc-url $RUS --private-key $PK --broadcast -vvvv
 
-contract MintScript is Script {
-    GovernanceToken _token = Governance_();
+contract Mint is Script {
+    GovernanceToken _token = GovernanceToken(0x0Ed89D4655b2fE9f99EaDC3116b223527165452D);
 
     uint256 _amount = 1e18 * 10000;
 
